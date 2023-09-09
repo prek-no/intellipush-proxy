@@ -1,0 +1,17 @@
+{
+  "name": "@prek-no/intellipush-proxy",
+  "version": "1.0.0",
+  "author": "Chris Magnussen <chris@prek.no>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.4",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "vercel": "^32.2.0"
+  }
+}
